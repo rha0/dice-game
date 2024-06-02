@@ -1,0 +1,32 @@
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  color: #333;
+  background-image: linear-gradient(to top left, #c2e59c 0%, #64b3f4 100%);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#game-wrap {
+  position: relative;
+  width: 100rem;
+  height: 60rem;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.15);
+  border-radius: 9px;
+  display: flex;
+  overflow: hidden;
+}
+
+.play {
+  display: flex;
+  flex: 50%;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.75s;
+  padding: 9rem;
+}
